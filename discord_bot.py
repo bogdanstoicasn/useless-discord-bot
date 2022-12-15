@@ -43,7 +43,7 @@ def log_msg(msg: str, level: str):
 ################################################################################
 ############################## BOT IMPLEMENTATION ##############################
 ################################################################################
-# bot instantiation
+# bot instantiation :0
 intents = discord.Intents.default()
 intents.message_content = True
 bot = discord.Bot(command_prefix='!', intents=intents)
